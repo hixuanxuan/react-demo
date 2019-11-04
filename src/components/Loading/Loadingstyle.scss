@@ -1,0 +1,8 @@
+$topHeight:58px;
+.spin-wrapper{
+    width: 100vw;
+    height: calc(100vh - #{$topHeight});
+    background-color: #a4a4a4;
+    filter:progid:DXImageTransform.Microsoft.Alpha(style=3,opacity=25,finishOpacity=75);
+    opacity: 0.4;
+}

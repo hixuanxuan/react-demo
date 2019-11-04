@@ -1,0 +1,54 @@
+.personinfo-wrapper{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    .personinfo-img{
+        display: block;
+        border-radius: 50%;
+        border: 1px solid #eee;
+        min-width: 48px;
+        min-height: 48px;
+        width: 48px;
+        height: 48px;
+    }
+    .personinfo-right{
+        display: flex;
+        height: 50px;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 8px;
+        .personinfo-author{
+            font-size: 16px;
+            font-weight: 500;
+            margin-right: 8px;
+        }
+        .personinfo-guanzhu{
+            padding: 2px 9px;
+            color: #ec7259;
+            background-color: #fff;
+            border-color: #ec7259;
+            border-radius: 20px;
+        }
+        .personinfo-other{
+            padding-top: 2px;
+            color: #969696;
+            font-size: 13px;
+            line-height: 20px;
+            &>:not(:last-child){
+                margin-right: 10px;
+            }
+            .action{
+                display: inline-block;
+                color: inherit;
+                font-style: normal;
+                line-height: 0;
+                text-align: center;
+                text-transform: none;
+                vertical-align: -.125em;
+                text-rendering: optimizeLegibility;
+                color:rgb(236, 114, 89);
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,52 @@
+$color:#f9f9f9;
+.detail-wrapper{
+    background-color: $color;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    .detail-middle-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: calc(100vh - 66px);//????什么作用
+        padding-top: 10px;
+        font-size: 16px;
+        box-sizing: content-box;
+        width: 1000px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        .detail-middle-left{
+            flex-shrink: 0;
+            width: 730px;
+            margin-bottom: 24px;
+            margin-right: 10px;
+            .detail-section{
+                width: 730px;
+                padding: 24px;
+                background-color: #fff;
+                border-radius: 4px;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+                font-size: 16px;
+                .detail-section-title{
+                    font-size: 30px;
+                    font-weight: 700;
+                    margin-bottom: .5em;
+                    word-break: break-word;
+                    color: #404040;
+                    text-rendering: optimizelegibility;
+                }
+                .detail-article-wrapper{
+                    font-weight: 400;
+                    line-height: 1.8;
+                    p{
+                        margin-bottom: 20px;
+                        word-break: break-word;
+                    }
+                }
+            }
+        }
+    }
+}
